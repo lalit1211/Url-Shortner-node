@@ -17,7 +17,8 @@ These two commands will install all the dependencies which will help to run the 
 ## APIs 
   `Base URL- http://localhost:8000`
   1. http://localhost:8000/api/url/
-      pass your original URL to this URL and you will get a short ID
+     </br>
+      pass your original URL `(through body)` to this URL and you will get a short ID
      and the short id will passed as params of the below URL(API).
   3. http://localhost:8000/api/url/:shortId
       Now this URL will be treated as your short URL like `Bitly` does.
